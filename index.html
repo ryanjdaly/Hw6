@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<p>How it works: </p>
+			<ul>
+				<li>5 key system: navigate using wasd, f to select</li>
+				<li>3 key system: move to next item using 1, select with 2, 3 automatically selects "=" </li>
+				<li>Testers completed 5 equations while being timed</li>
+			</ul>
+			<p>Test results: </p>
+			<table>
+			<tr>
+				<td>Tester</td>
+				<td>5 key time</td>
+				<td>3 key time</td>
+				<td>5 key errors</td>
+				<td>3 key errors</td>
+			</tr>
+			<tr>
+				<td>Brenna</td>
+				<td>1 min 9 sec</td>
+				<td>1 min 59 sec</td>
+				<td>3</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Ryan</td>
+				<td>38 sec</td>
+				<td>1 min</td>
+				<td>1</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>Cassie</td>
+				<td>1 min 32 sec</td>
+				<td>1 min 29 sec</td>
+				<td>10</td>
+				<td>4</td>
+			</tr>
+			</table>
+			<p>Interestingly the two testers who are familiar with wasd video games performed 
+				much better with the 5 key system than the 3, while the tester who was not performed slightly
+				better with the 3 key system. While the 5 key system is more efficient it seems the 3 key system 
+				is simpler for people who don't type or play video games much.
+			</p>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
